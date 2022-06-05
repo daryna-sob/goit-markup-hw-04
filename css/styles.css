@@ -212,6 +212,15 @@ img {
   margin-right: 30px;
   max-width: 270px;
 }
+.thumb {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
 /* .feature-item::before {
   display: block;
   content: "";
@@ -358,6 +367,38 @@ img {
 .team-soc-link:focus .team-soc-icon {
   fill: #ffffff;
 }
+/* -------------------------------------------CLIENTS----------------------------------------- */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title {
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+/* .clients-group {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+} */
+.clients-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+}
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-icon {
+}
+
 /* ---------------------FOOTER---------------------------- */
 .footer {
   background-color: var(--secondary-background-color);
