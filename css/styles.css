@@ -228,31 +228,7 @@ img {
   padding: 25px 100px;
   margin-bottom: 30px;
 }
-/* .feature-item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--section-backgrond-color);
-}
-.icon-antenna::before {
-  background-image: url(../images/antenna-icon.svg);
-  background-size: 70px;
-}
-.icon-clock::before {
-  background-image: url(../images/clock-icon.svg);
-  background-size: 70px;
-}
-.icon-diagram::before {
-  background-image: url(../images/diagram-icon.svg);
-  background-size: 70px;
-}
-.icon-astronaut::before {
-  background-image: url(../images/astronaut-icon.svg);
-  background-size: 70px;
-} */
+
 .feature-subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -421,7 +397,7 @@ img {
 .clients-link:focus .clients-icon {
   fill: rgba(33, 150, 243, 1);
 }
-/* ---------------------FOOTER---------------------------- */
+/* ------------------------------------------------------------FOOTER------------------------------------------------------------------ */
 .footer {
   background-color: var(--secondary-background-color);
   padding-top: 60px;
@@ -448,6 +424,7 @@ img {
   color: var(--section-backgrond-color);
   margin-top: 20px;
   margin-bottom: 9px;
+  display: inline-block;
 }
 
 .address-mail-item {
